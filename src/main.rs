@@ -1,3 +1,6 @@
+use chess::engine::*;
+
 fn main() {
-    println!("Hello, world!");
+    let board = ChessBoard::default();
+    println!("{}", board);
 }
